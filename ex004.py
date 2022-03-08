@@ -1,0 +1,10 @@
+# Dados do input
+a = input('Digite algo a ser analisado: ')
+print('O tipo desse input é: {}.'.format(type(a)))
+print('O input só tem espaços? {}.'.format(a.isspace()))
+print('O input é um número? {}.'.format(a.isnumeric()))
+print('O input é alfabetico? {}.'.format(a.isalpha()))
+print('O input é alfanumério? {}.'.format(a.isalnum()))
+print('O input está em maiúsculo? {}.'.format(a.isupper()))
+print('O input está em minúsculo? {}.'.format(a.islower()))
+print('O input está capitalizada? {}.'.format(a.istitle()))
